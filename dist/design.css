@@ -1,0 +1,14 @@
+.venox-link-1 {
+    transition: 0.3s;
+    @apply hover:opacity-100 focus:text-venox-500 focus:opacity-100 text-white opacity-70;
+}
+
+.venox-link-2 {
+    transition: 0.3s;
+    @apply hover:text-venox-500 focus:text-venox-500 text-gray-300 underline decoration:text-venox-500;
+}
+
+.venox-text {
+    transition: 0.3s;
+    @apply text-gray-400;
+}
