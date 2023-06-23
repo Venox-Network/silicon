@@ -1,0 +1,74 @@
+.subParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.subsWrap {
+    background-color: #1e1f22;
+    width: 20%;
+    border-radius: 1vw;
+    margin: 2vw;
+}
+
+.subsChild {
+    padding: 1vw;
+    padding-bottom:0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subsChild p1 {
+    font-size: 14px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.miniDividerWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.miniDivider {
+    width: 30%;
+    height: 4px;
+    background-color: #B0B0B0;
+    border-radius: 5px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.subBttnWrap {
+    background-color: #282a2e;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    border-radius: 0 0 1vw 1vw;
+}
+
+.subList {
+    line-height: 27px; 
+}
+
+.fa-hashtag, .fa-volume {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 650px) {
+    .subParent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subsWrap {
+        width: 80%;
+        border-radius: 3vw;
+    }
+
+    .subBttnWrap {
+        border-radius: 0 0 3vw 3vw;
+        display: flex;
+        flex-direction: column;
+    }
+}

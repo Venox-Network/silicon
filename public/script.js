@@ -19,38 +19,35 @@ function topFunction() {
 
 //--------------------------------------------------------------
 
-const navbar = document.getElementById('navbar');
 let lastScrollPosition = window.pageYOffset;
+const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
   const currentScrollPosition = window.pageYOffset;
-  const middleLogo = document.querySelector('.desMid');
   
   if (currentScrollPosition > 50) {
     // Scrolling down
     navbar.classList.add('fixed');
-    middleLogo.style.visibility = "visible";
   } else {
     // Scrolling up
     navbar.classList.remove('fixed');
-    middleLogo.style.visibility = "hidden";
   }
   
   lastScrollPosition = currentScrollPosition;
 });
 
-const nav = document.getElementById('nav');
+// const nav = document.getElementById('nav');
 
-window.addEventListener('scroll', () => {
-  const currentScrollPosition = window.pageYOffset;
+// window.addEventListener('scroll', () => {
+//   const currentScrollPosition = window.pageYOffset;
   
-  if (currentScrollPosition > 50) {
-    // Scrolling down
-    nav.classList.add('fixed');
-  } else {
-    // Scrolling up
-    nav.classList.remove('fixed');
-  }
+//   if (currentScrollPosition > 50) {
+//     // Scrolling down
+//     nav.classList.add('fixed');
+//   } else {
+//     // Scrolling up
+//     nav.classList.remove('fixed');
+//   }
   
-  lastScrollPosition = currentScrollPosition;
-});
+//   lastScrollPosition = currentScrollPosition;
+// });
