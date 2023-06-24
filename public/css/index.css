@@ -88,7 +88,7 @@
 
 .posChild {
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 5vh;
     margin-bottom: 15vh;
 }
 
@@ -96,6 +96,33 @@
     background-color: #171a1f;
     padding: 2vw;
 }
+
+.coverImg {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-image: url(../assets/vnBanner_future_white_transparent.png);
+    background-size: auto 40vh;
+    background-position-x: 50%;
+    /* filter: brightness(0) invert(1); */
+}
+
+/* .lastImg {
+    position: relative;
+    height: 20vh;
+    width: 100%;
+}
+
+.lastImg::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    background-size: auto 30vh;
+    background-position-x: 50%;;
+    background-image: url(../assets/vnBanner_future_transparent.png);
+} */
 
 @media only screen and (max-width: 650px) {
     h1 {
@@ -110,4 +137,33 @@
     p1 {
         font-size: 14px !important;
     }
+
+    .coverImg {
+        margin-top: 5vh;
+        margin-bottom: 7vh;
+        height: 15vh;
+        width: 100%;
+        background-size: auto 20vh;
+        background-position-x: 50%;
+    }
+
+    /* .lastImg {
+        position: relative;
+        height: 10vh;
+        width: 100%;
+    }
+    
+    .lastImg::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        height: 15vh;
+        width: 100%;
+        background-size: auto 15vh;
+        background-position-x: 50%;
+        background-position-y: 30%;
+        background-image: url(../assets/vnBanner_future_transparent.png);
+    } */
 }
+
+

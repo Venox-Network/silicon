@@ -159,7 +159,7 @@ nav ul li{
         position: fixed !important;
         z-index: 20 !important;
         top: 0px !important;
-        box-shadow: 0 -2vw 3vw #0070c0;
+        /* box-shadow: 0 -2vw 3vw #0070c0; */
     }
 
     .fixed {
@@ -266,7 +266,7 @@ nav ul li a:hover::after,nav ul li a:hover::before{
     width:100%;
     animation: slideDown .5s;
     animation-fill-mode: forwards, none;
-    box-shadow: 0 -2vw 3vw #0070c0;
+    /* box-shadow: 0 -2vw 3vw #0070c0; */
 }
 
 @keyframes slideDown {

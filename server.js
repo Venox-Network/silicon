@@ -16,8 +16,8 @@ app.use(express.static('public'));
 
 app.use(express.json());
 
-// Start the server
+// Start the server (npm run dev)
 const port = process.env.PORT || 6969;
 app.listen(port, () => {
-  console.log(`Server started on `.blue + `Port: ${port}`.cyan.underline);
+  console.log(`Server started on `.blue + `http://localhost:${port}`.cyan.underline);
 });
